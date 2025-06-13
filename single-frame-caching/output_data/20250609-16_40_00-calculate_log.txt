@@ -1,0 +1,255 @@
+initial time: 0.009999752044677734
+round:1, iter:1, this-value:-258.7153946587999, time-cost:0.013998985290527344, round-best-server:1, round-best-value:-258.7153946587999
+round:1, iter:2, this-value:-214.68560268845408, time-cost:0.01700115203857422, round-best-server:1, round-best-value:-258.7153946587999
+round:1, iter:3, this-value:-210.111034417282, time-cost:0.01477956771850586, round-best-server:1, round-best-value:-258.7153946587999
+round:1, iter:4, this-value:-166.72111819809538, time-cost:0.012997150421142578, round-best-server:1, round-best-value:-258.7153946587999
+round:1, iter:5, this-value:-189.07498412648448, time-cost:0.014964818954467773, round-best-server:1, round-best-value:-258.7153946587999
+round:1, iter:6, this-value:-568.1783650635308, time-cost:0.013002634048461914, round-best-server:6, round-best-value:-568.1783650635308
+round:1, iter:7, this-value:0.0, time-cost:0.012001752853393555, round-best-server:6, round-best-value:-568.1783650635308
+round:1, iter:8, this-value:-461.4357957881111, time-cost:0.012998342514038086, round-best-server:6, round-best-value:-568.1783650635308
+round:1, iter:9, this-value:-366.1449388594994, time-cost:0.014999628067016602, round-best-server:6, round-best-value:-568.1783650635308
+round:1, iter:10, this-value:-415.2374291335778, time-cost:0.014001846313476562, round-best-server:6, round-best-value:-568.1783650635308
+round:1, iter:11, this-value:-95.86504543075684, time-cost:0.01600170135498047, round-best-server:6, round-best-value:-568.1783650635308
+round:1, iter:12, this-value:-79.55013686835524, time-cost:0.0220029354095459, round-best-server:6, round-best-value:-568.1783650635308
+round:1, iter:13, this-value:-77.85506497006186, time-cost:0.021003007888793945, round-best-server:6, round-best-value:-568.1783650635308
+round:1, iter:14, this-value:-61.77725755904633, time-cost:0.017990827560424805, round-best-server:6, round-best-value:-568.1783650635308
+round:1, iter:15, this-value:-70.06031460559068, time-cost:0.018003225326538086, round-best-server:6, round-best-value:-568.1783650635308
+round:1, iter:16, this-value:-90.63351414369674, time-cost:0.015994787216186523, round-best-server:6, round-best-value:-568.1783650635308
+round:1, iter:17, this-value:-75.20894005311655, time-cost:0.01699972152709961, round-best-server:6, round-best-value:-568.1783650635308
+round:1, iter:18, this-value:-73.60637133603892, time-cost:0.016030550003051758, round-best-server:6, round-best-value:-568.1783650635308
+round:1, iter:19, this-value:-58.40595935231507, time-cost:0.014999866485595703, round-best-server:6, round-best-value:-568.1783650635308
+round:1, iter:20, this-value:-66.2369947897652, time-cost:0.013999700546264648, round-best-server:6, round-best-value:-568.1783650635308
+round:1, iter:21, this-value:0.0, time-cost:0.014000654220581055, round-best-server:6, round-best-value:-568.1783650635308
+round:1, iter:22, this-value:-150.62499760069636, time-cost:0.01299905776977539, round-best-server:6, round-best-value:-568.1783650635308
+round:1, iter:23, this-value:-147.41544686119266, time-cost:0.017000675201416016, round-best-server:6, round-best-value:-568.1783650635308
+round:1, iter:24, this-value:-116.97276256114814, time-cost:0.014970779418945312, round-best-server:6, round-best-value:-568.1783650635308
+round:1, iter:25, this-value:-132.65639928231232, time-cost:0.016661643981933594, round-best-server:6, round-best-value:-568.1783650635308
+round:2, iter:1, this-value:-568.1783650635308, time-cost:0.015000104904174805, round-best-server:1, round-best-value:-568.1783650635308
+round:2, iter:2, this-value:-782.8639677519849, time-cost:0.015000581741333008, round-best-server:2, round-best-value:-782.8639677519849
+round:2, iter:3, this-value:-778.2893994808128, time-cost:0.015998363494873047, round-best-server:2, round-best-value:-782.8639677519849
+round:2, iter:4, this-value:-734.8994832616262, time-cost:0.015004396438598633, round-best-server:2, round-best-value:-782.8639677519849
+round:2, iter:5, this-value:-757.2533491900153, time-cost:0.017029523849487305, round-best-server:2, round-best-value:-782.8639677519849
+round:2, iter:7, this-value:-568.1783650635308, time-cost:0.014967918395996094, round-best-server:2, round-best-value:-782.8639677519849
+round:2, iter:8, this-value:-1029.6141608516418, time-cost:0.015999794006347656, round-best-server:8, round-best-value:-1029.6141608516418
+round:2, iter:9, this-value:-934.3233039230302, time-cost:0.015001296997070312, round-best-server:8, round-best-value:-1029.6141608516418
+round:2, iter:10, this-value:-983.4157941971087, time-cost:0.013999223709106445, round-best-server:8, round-best-value:-1029.6141608516418
+round:2, iter:11, this-value:-568.1783650635308, time-cost:0.015030860900878906, round-best-server:8, round-best-value:-1029.6141608516418
+round:2, iter:12, this-value:-647.7285019318861, time-cost:0.015003442764282227, round-best-server:8, round-best-value:-1029.6141608516418
+round:2, iter:13, this-value:-646.0334300335927, time-cost:0.01496744155883789, round-best-server:8, round-best-value:-1029.6141608516418
+round:2, iter:14, this-value:-629.9556226225772, time-cost:0.014998912811279297, round-best-server:8, round-best-value:-1029.6141608516418
+round:2, iter:15, this-value:-638.2386796691214, time-cost:0.014916419982910156, round-best-server:8, round-best-value:-1029.6141608516418
+round:2, iter:16, this-value:-568.1783650635308, time-cost:0.015023469924926758, round-best-server:8, round-best-value:-1029.6141608516418
+round:2, iter:17, this-value:-643.3873051166473, time-cost:0.015974998474121094, round-best-server:8, round-best-value:-1029.6141608516418
+round:2, iter:18, this-value:-641.7847363995697, time-cost:0.015032052993774414, round-best-server:8, round-best-value:-1029.6141608516418
+round:2, iter:19, this-value:-626.5843244158459, time-cost:0.015010595321655273, round-best-server:8, round-best-value:-1029.6141608516418
+round:2, iter:20, this-value:-634.415359853296, time-cost:0.017989635467529297, round-best-server:8, round-best-value:-1029.6141608516418
+round:2, iter:21, this-value:-568.1783650635308, time-cost:0.015000343322753906, round-best-server:8, round-best-value:-1029.6141608516418
+round:2, iter:22, this-value:-718.8033626642272, time-cost:0.014969110488891602, round-best-server:8, round-best-value:-1029.6141608516418
+round:2, iter:23, this-value:-715.5938119247235, time-cost:0.015002727508544922, round-best-server:8, round-best-value:-1029.6141608516418
+round:2, iter:24, this-value:-685.1511276246789, time-cost:0.015001296997070312, round-best-server:8, round-best-value:-1029.6141608516418
+round:2, iter:25, this-value:-700.8347643458432, time-cost:0.01599907875061035, round-best-server:8, round-best-value:-1029.6141608516418
+round:3, iter:1, this-value:-1029.6141608516418, time-cost:0.013996362686157227, round-best-server:1, round-best-value:-1029.6141608516418
+round:3, iter:2, this-value:-1244.2997635400961, time-cost:0.014024734497070312, round-best-server:2, round-best-value:-1244.2997635400961
+round:3, iter:3, this-value:-1029.614160851642, time-cost:0.016007423400878906, round-best-server:2, round-best-value:-1244.2997635400961
+round:3, iter:4, this-value:-1196.3352790497372, time-cost:0.014998435974121094, round-best-server:2, round-best-value:-1244.2997635400961
+round:3, iter:5, this-value:-1218.6891449781263, time-cost:0.015002250671386719, round-best-server:2, round-best-value:-1244.2997635400961
+round:3, iter:7, this-value:-1029.6141608516418, time-cost:0.017969369888305664, round-best-server:2, round-best-value:-1244.2997635400961
+round:3, iter:9, this-value:-1395.7590997111413, time-cost:0.014998674392700195, round-best-server:9, round-best-value:-1395.7590997111413
+round:3, iter:10, this-value:-1444.8515899852198, time-cost:0.016000747680664062, round-best-server:10, round-best-value:-1444.8515899852198
+round:3, iter:11, this-value:-1029.6141608516418, time-cost:0.01600050926208496, round-best-server:10, round-best-value:-1444.8515899852198
+round:3, iter:12, this-value:-1109.1642977199972, time-cost:0.015999794006347656, round-best-server:10, round-best-value:-1444.8515899852198
+round:3, iter:13, this-value:-1029.6141608516418, time-cost:0.01699972152709961, round-best-server:10, round-best-value:-1444.8515899852198
+round:3, iter:14, this-value:-1091.3914184106882, time-cost:0.015999794006347656, round-best-server:10, round-best-value:-1444.8515899852198
+round:3, iter:15, this-value:-1099.6744754572326, time-cost:0.015001535415649414, round-best-server:10, round-best-value:-1444.8515899852198
+round:3, iter:16, this-value:-1029.6141608516418, time-cost:0.015000104904174805, round-best-server:10, round-best-value:-1444.8515899852198
+round:3, iter:17, this-value:-1104.8231009047586, time-cost:0.016002416610717773, round-best-server:10, round-best-value:-1444.8515899852198
+round:3, iter:18, this-value:-1029.6141608516418, time-cost:0.014998197555541992, round-best-server:10, round-best-value:-1444.8515899852198
+round:3, iter:19, this-value:-1088.0201202039568, time-cost:0.015001058578491211, round-best-server:10, round-best-value:-1444.8515899852198
+round:3, iter:20, this-value:-1095.851155641407, time-cost:0.016005277633666992, round-best-server:10, round-best-value:-1444.8515899852198
+round:3, iter:21, this-value:-1029.6141608516418, time-cost:0.013995647430419922, round-best-server:10, round-best-value:-1444.8515899852198
+round:3, iter:22, this-value:-1180.2391584523384, time-cost:0.01499795913696289, round-best-server:10, round-best-value:-1444.8515899852198
+round:3, iter:23, this-value:-1029.6141608516418, time-cost:0.016001462936401367, round-best-server:10, round-best-value:-1444.8515899852198
+round:3, iter:24, this-value:-1146.58692341279, time-cost:0.01599907875061035, round-best-server:10, round-best-value:-1444.8515899852198
+round:3, iter:25, this-value:-1162.2705601339542, time-cost:0.01600050926208496, round-best-server:10, round-best-value:-1444.8515899852198
+round:4, iter:1, this-value:-1444.8515899852198, time-cost:0.01600027084350586, round-best-server:1, round-best-value:-1444.8515899852198
+round:4, iter:2, this-value:-1659.5371926736739, time-cost:0.019000768661499023, round-best-server:2, round-best-value:-1659.5371926736739
+round:4, iter:3, this-value:-1444.85158998522, time-cost:0.01600027084350586, round-best-server:2, round-best-value:-1659.5371926736739
+round:4, iter:4, this-value:-1611.5727081833152, time-cost:0.01700568199157715, round-best-server:2, round-best-value:-1659.5371926736739
+round:4, iter:5, this-value:-1444.8515899852198, time-cost:0.016997098922729492, round-best-server:2, round-best-value:-1659.5371926736739
+round:4, iter:7, this-value:-1444.8515899852198, time-cost:0.016997575759887695, round-best-server:2, round-best-value:-1659.5371926736739
+round:4, iter:9, this-value:-1810.9965288447193, time-cost:0.01700115203857422, round-best-server:9, round-best-value:-1810.9965288447193
+round:4, iter:11, this-value:-1444.8515899852198, time-cost:0.014997482299804688, round-best-server:9, round-best-value:-1810.9965288447193
+round:4, iter:12, this-value:-1524.401726853575, time-cost:0.016004562377929688, round-best-server:9, round-best-value:-1810.9965288447193
+round:4, iter:13, this-value:-1444.8515899852196, time-cost:0.02199697494506836, round-best-server:9, round-best-value:-1810.9965288447193
+round:4, iter:14, this-value:-1506.6288475442661, time-cost:0.020000696182250977, round-best-server:9, round-best-value:-1810.9965288447193
+round:4, iter:15, this-value:-1444.8515899852196, time-cost:0.021002531051635742, round-best-server:9, round-best-value:-1810.9965288447193
+round:4, iter:16, this-value:-1444.8515899852198, time-cost:0.023001909255981445, round-best-server:9, round-best-value:-1810.9965288447193
+round:4, iter:17, this-value:-1520.0605300383363, time-cost:0.02400946617126465, round-best-server:9, round-best-value:-1810.9965288447193
+round:4, iter:18, this-value:-1444.8515899852196, time-cost:0.020999670028686523, round-best-server:9, round-best-value:-1810.9965288447193
+round:4, iter:19, this-value:-1503.2575493375348, time-cost:0.018000364303588867, round-best-server:9, round-best-value:-1810.9965288447193
+round:4, iter:20, this-value:-1444.8515899852196, time-cost:0.015999555587768555, round-best-server:9, round-best-value:-1810.9965288447193
+round:4, iter:21, this-value:-1444.8515899852198, time-cost:0.014991283416748047, round-best-server:9, round-best-value:-1810.9965288447193
+round:4, iter:22, this-value:-1595.4765875859161, time-cost:0.015999317169189453, round-best-server:9, round-best-value:-1810.9965288447193
+round:4, iter:23, this-value:-1444.8515899852196, time-cost:0.015000343322753906, round-best-server:9, round-best-value:-1810.9965288447193
+round:4, iter:24, this-value:-1561.824352546368, time-cost:0.015002727508544922, round-best-server:9, round-best-value:-1810.9965288447193
+round:4, iter:25, this-value:-1444.8515899852196, time-cost:0.01599907875061035, round-best-server:9, round-best-value:-1810.9965288447193
+round:5, iter:1, this-value:-1810.9965288447193, time-cost:0.016000986099243164, round-best-server:1, round-best-value:-1810.9965288447193
+round:5, iter:2, this-value:-2025.682131533173, time-cost:0.01600193977355957, round-best-server:2, round-best-value:-2025.682131533173
+round:5, iter:3, this-value:-1810.9965288447193, time-cost:0.016033411026000977, round-best-server:2, round-best-value:-2025.682131533173
+round:5, iter:4, this-value:-1810.9965288447193, time-cost:0.017987966537475586, round-best-server:2, round-best-value:-2025.682131533173
+round:5, iter:5, this-value:-1810.9965288447193, time-cost:0.015999794006347656, round-best-server:2, round-best-value:-2025.682131533173
+round:5, iter:7, this-value:-1810.9965288447193, time-cost:0.017001867294311523, round-best-server:2, round-best-value:-2025.682131533173
+round:5, iter:11, this-value:-1810.9965288447193, time-cost:0.016004085540771484, round-best-server:2, round-best-value:-2025.682131533173
+round:5, iter:12, this-value:-1890.5466657130744, time-cost:0.01699542999267578, round-best-server:2, round-best-value:-2025.682131533173
+round:5, iter:13, this-value:-1810.9965288447193, time-cost:0.017000436782836914, round-best-server:2, round-best-value:-2025.682131533173
+round:5, iter:14, this-value:-1810.996528844719, time-cost:0.016002178192138672, round-best-server:2, round-best-value:-2025.682131533173
+round:5, iter:15, this-value:-1810.9965288447193, time-cost:0.016002416610717773, round-best-server:2, round-best-value:-2025.682131533173
+round:5, iter:16, this-value:-1810.9965288447193, time-cost:0.015994787216186523, round-best-server:2, round-best-value:-2025.682131533173
+round:5, iter:17, this-value:-1886.2054688978358, time-cost:0.01699995994567871, round-best-server:2, round-best-value:-2025.682131533173
+round:5, iter:18, this-value:-1810.9965288447193, time-cost:0.016999006271362305, round-best-server:2, round-best-value:-2025.682131533173
+round:5, iter:19, this-value:-1810.996528844719, time-cost:0.017000675201416016, round-best-server:2, round-best-value:-2025.682131533173
+round:5, iter:20, this-value:-1810.9965288447193, time-cost:0.015000104904174805, round-best-server:2, round-best-value:-2025.682131533173
+round:5, iter:21, this-value:-1810.9965288447193, time-cost:0.015003442764282227, round-best-server:2, round-best-value:-2025.682131533173
+round:5, iter:22, this-value:-1961.6215264454156, time-cost:0.014997243881225586, round-best-server:2, round-best-value:-2025.682131533173
+round:5, iter:23, this-value:-1810.9965288447193, time-cost:0.01600360870361328, round-best-server:2, round-best-value:-2025.682131533173
+round:5, iter:24, this-value:-1810.996528844719, time-cost:0.015030622482299805, round-best-server:2, round-best-value:-2025.682131533173
+round:5, iter:25, this-value:-1810.9965288447193, time-cost:0.014996767044067383, round-best-server:2, round-best-value:-2025.682131533173
+round:6, iter:1, this-value:-2025.6821315331733, time-cost:0.015000104904174805, round-best-server:1, round-best-value:-2025.6821315331733
+round:6, iter:3, this-value:-2025.6821315331733, time-cost:0.015970230102539062, round-best-server:1, round-best-value:-2025.6821315331733
+round:6, iter:4, this-value:-2025.6821315331733, time-cost:0.014000415802001953, round-best-server:1, round-best-value:-2025.6821315331733
+round:6, iter:5, this-value:-2025.6821315331733, time-cost:0.018001317977905273, round-best-server:1, round-best-value:-2025.6821315331733
+round:6, iter:7, this-value:-2025.682131533173, time-cost:0.014030218124389648, round-best-server:1, round-best-value:-2025.6821315331733
+round:6, iter:11, this-value:-2025.6821315331733, time-cost:0.014968156814575195, round-best-server:1, round-best-value:-2025.6821315331733
+round:6, iter:12, this-value:-2025.6821315331736, time-cost:0.016030073165893555, round-best-server:12, round-best-value:-2025.6821315331736
+round:6, iter:13, this-value:-2025.6821315331733, time-cost:0.023972511291503906, round-best-server:12, round-best-value:-2025.6821315331736
+round:6, iter:14, this-value:-2025.682131533173, time-cost:0.020028352737426758, round-best-server:12, round-best-value:-2025.6821315331736
+round:6, iter:15, this-value:-2025.6821315331733, time-cost:0.015001058578491211, round-best-server:12, round-best-value:-2025.6821315331736
+round:6, iter:16, this-value:-2025.6821315331733, time-cost:0.014969348907470703, round-best-server:12, round-best-value:-2025.6821315331736
+round:6, iter:17, this-value:-2025.6821315331736, time-cost:0.014999151229858398, round-best-server:12, round-best-value:-2025.6821315331736
+round:6, iter:18, this-value:-2025.6821315331733, time-cost:0.01600503921508789, round-best-server:12, round-best-value:-2025.6821315331736
+round:6, iter:19, this-value:-2025.682131533173, time-cost:0.015025854110717773, round-best-server:12, round-best-value:-2025.6821315331736
+round:6, iter:20, this-value:-2025.6821315331733, time-cost:0.014999866485595703, round-best-server:12, round-best-value:-2025.6821315331736
+round:6, iter:21, this-value:-2025.682131533173, time-cost:0.015000343322753906, round-best-server:12, round-best-value:-2025.6821315331736
+round:6, iter:22, this-value:-2025.6821315331736, time-cost:0.014000177383422852, round-best-server:12, round-best-value:-2025.6821315331736
+round:6, iter:23, this-value:-2025.6821315331733, time-cost:0.015031576156616211, round-best-server:12, round-best-value:-2025.6821315331736
+round:6, iter:24, this-value:-2025.682131533173, time-cost:0.013967514038085938, round-best-server:12, round-best-value:-2025.6821315331736
+round:6, iter:25, this-value:-2025.6821315331733, time-cost:0.013966083526611328, round-best-server:12, round-best-value:-2025.6821315331736
+round:7, iter:1, this-value:-2025.6821315331733, time-cost:0.013968706130981445, round-best-server:1, round-best-value:-2025.6821315331733
+round:7, iter:3, this-value:-2025.6821315331733, time-cost:0.013998746871948242, round-best-server:1, round-best-value:-2025.6821315331733
+round:7, iter:4, this-value:-2025.6821315331733, time-cost:0.013998985290527344, round-best-server:1, round-best-value:-2025.6821315331733
+round:7, iter:5, this-value:-2025.6821315331733, time-cost:0.014968156814575195, round-best-server:1, round-best-value:-2025.6821315331733
+round:7, iter:7, this-value:-2025.6821315331736, time-cost:0.015004158020019531, round-best-server:7, round-best-value:-2025.6821315331736
+round:7, iter:11, this-value:-2025.6821315331733, time-cost:0.015028953552246094, round-best-server:7, round-best-value:-2025.6821315331736
+round:7, iter:13, this-value:-2025.6821315331736, time-cost:0.014969348907470703, round-best-server:7, round-best-value:-2025.6821315331736
+round:7, iter:14, this-value:-2025.682131533173, time-cost:0.014998912811279297, round-best-server:7, round-best-value:-2025.6821315331736
+round:7, iter:15, this-value:-2025.6821315331733, time-cost:0.015000343322753906, round-best-server:7, round-best-value:-2025.6821315331736
+round:7, iter:16, this-value:-2025.6821315331733, time-cost:0.015000104904174805, round-best-server:7, round-best-value:-2025.6821315331736
+round:7, iter:17, this-value:-2025.6821315331736, time-cost:0.017000198364257812, round-best-server:7, round-best-value:-2025.6821315331736
+round:7, iter:18, this-value:-2025.6821315331736, time-cost:0.01503133773803711, round-best-server:7, round-best-value:-2025.6821315331736
+round:7, iter:19, this-value:-2025.682131533173, time-cost:0.01600193977355957, round-best-server:7, round-best-value:-2025.6821315331736
+round:7, iter:20, this-value:-2025.6821315331733, time-cost:0.01399087905883789, round-best-server:7, round-best-value:-2025.6821315331736
+round:7, iter:21, this-value:-2025.6821315331736, time-cost:0.014998435974121094, round-best-server:7, round-best-value:-2025.6821315331736
+round:7, iter:22, this-value:-2025.6821315331736, time-cost:0.014998912811279297, round-best-server:7, round-best-value:-2025.6821315331736
+round:7, iter:23, this-value:-2025.6821315331736, time-cost:0.017031431198120117, round-best-server:7, round-best-value:-2025.6821315331736
+round:7, iter:24, this-value:-2025.682131533173, time-cost:0.016974687576293945, round-best-server:7, round-best-value:-2025.6821315331736
+round:7, iter:25, this-value:-2025.6821315331733, time-cost:0.01799631118774414, round-best-server:7, round-best-value:-2025.6821315331736
+final-object-value:-2025.6821315331736, final-best-servers:[0, 1, 0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]COLORING: round:1, iter:1, this-value:-54959.51428824435, time-cost:4.378386735916138, round-best-service:1, round-best-value:-54959.51428824435
+COLORING: round:1, iter:2, this-value:0.0, time-cost:3.9547295570373535, round-best-service:1, round-best-value:-54959.51428824435
+COLORING: round:1, iter:3, this-value:-20364.835038298832, time-cost:4.075701713562012, round-best-service:1, round-best-value:-54959.51428824435
+COLORING: round:1, iter:4, this-value:-19253.48865359781, time-cost:4.110166788101196, round-best-service:1, round-best-value:-54959.51428824435
+COLORING: round:1, iter:5, this-value:-38559.99938577806, time-cost:4.043077707290649, round-best-service:1, round-best-value:-54959.51428824435
+COLORING: round:2, iter:1, this-value:-199242.0862670905, time-cost:3.9621825218200684, round-best-service:1, round-best-value:-199242.0862670905
+COLORING: round:2, iter:2, this-value:-263581.22517801874, time-cost:4.1549155712127686, round-best-service:2, round-best-value:-263581.22517801874
+COLORING: round:2, iter:3, this-value:-165384.55808860043, time-cost:4.0198469161987305, round-best-service:2, round-best-value:-263581.22517801874
+COLORING: round:2, iter:4, this-value:-164296.89251828927, time-cost:4.079852819442749, round-best-service:2, round-best-value:-263581.22517801874
+COLORING: round:2, iter:5, this-value:-183192.0158527275, time-cost:4.044933319091797, round-best-service:2, round-best-value:-263581.22517801874
+COLORING: round:3, iter:1, this-value:-214221.6924309425, time-cost:3.9677491188049316, round-best-service:1, round-best-value:-214221.6924309425
+COLORING: round:3, iter:2, this-value:-272119.27835275827, time-cost:4.12653660774231, round-best-service:2, round-best-value:-272119.27835275827
+COLORING: round:3, iter:3, this-value:-183753.93703359333, time-cost:4.123589992523193, round-best-service:2, round-best-value:-272119.27835275827
+COLORING: round:3, iter:4, this-value:-182775.1671607417, time-cost:4.387726068496704, round-best-service:2, round-best-value:-272119.27835275827
+COLORING: round:3, iter:5, this-value:-199778.53471083185, time-cost:4.0429298877716064, round-best-service:2, round-best-value:-272119.27835275827
+COLORING: round:4, iter:1, this-value:-258166.92069116715, time-cost:4.13496994972229, round-best-service:1, round-best-value:-258166.92069116715
+COLORING: round:4, iter:2, this-value:-322506.05960209435, time-cost:4.090290546417236, round-best-service:2, round-best-value:-322506.05960209435
+COLORING: round:4, iter:3, this-value:-224309.39251267893, time-cost:3.967865228652954, round-best-service:2, round-best-value:-322506.05960209435
+COLORING: round:4, iter:4, this-value:-223221.72694236776, time-cost:4.28196382522583, round-best-service:2, round-best-value:-322506.05960209435
+COLORING: round:4, iter:5, this-value:-242116.8502768077, time-cost:4.013409376144409, round-best-service:2, round-best-value:-322506.05960209435
+COLORING: round:5, iter:1, this-value:-278531.7557294617, time-cost:3.7926666736602783, round-best-service:1, round-best-value:-278531.7557294617
+COLORING: round:5, iter:2, this-value:-342870.89464039303, time-cost:4.147275447845459, round-best-service:2, round-best-value:-342870.89464039303
+COLORING: round:5, iter:3, this-value:-244674.22755097577, time-cost:3.742860794067383, round-best-service:2, round-best-value:-342870.89464039303
+COLORING: round:5, iter:4, this-value:-243586.5619806646, time-cost:4.021891355514526, round-best-service:2, round-best-value:-342870.89464039303
+COLORING: round:5, iter:5, this-value:-262481.6853151066, time-cost:3.721623182296753, round-best-service:2, round-best-value:-342870.89464039303
+COLORING: round:6, iter:1, this-value:-245108.16595693748, time-cost:4.12025785446167, round-best-service:1, round-best-value:-245108.16595693748
+COLORING: round:6, iter:2, this-value:-245108.16595693748, time-cost:4.113733530044556, round-best-service:1, round-best-value:-245108.16595693748
+COLORING: round:6, iter:3, this-value:-245108.16595693748, time-cost:3.7387073040008545, round-best-service:1, round-best-value:-245108.16595693748
+COLORING: round:6, iter:4, this-value:-245108.16595693748, time-cost:3.8760323524475098, round-best-service:1, round-best-value:-245108.16595693748
+COLORING: round:6, iter:5, this-value:-245108.16595693748, time-cost:3.914638042449951, round-best-service:1, round-best-value:-245108.16595693748
+COLORING: round:7, iter:1, this-value:-298896.5907677583, time-cost:3.9174234867095947, round-best-service:1, round-best-value:-298896.5907677583
+COLORING: round:7, iter:2, this-value:-363235.72967869183, time-cost:4.204877853393555, round-best-service:2, round-best-value:-363235.72967869183
+COLORING: round:7, iter:3, this-value:-265039.0625892735, time-cost:3.855039596557617, round-best-service:2, round-best-value:-363235.72967869183
+COLORING: round:7, iter:4, this-value:-263951.39701896254, time-cost:3.847179412841797, round-best-service:2, round-best-value:-363235.72967869183
+COLORING: round:7, iter:5, this-value:-282846.52035340155, time-cost:3.7860124111175537, round-best-service:2, round-best-value:-363235.72967869183
+COLORING: round:8, iter:1, this-value:-275154.0541200159, time-cost:4.020678520202637, round-best-service:1, round-best-value:-275154.0541200159
+COLORING: round:8, iter:2, this-value:-245108.16595693748, time-cost:3.9817070960998535, round-best-service:1, round-best-value:-275154.0541200159
+COLORING: round:8, iter:3, this-value:-245108.16595693748, time-cost:3.678661346435547, round-best-service:1, round-best-value:-275154.0541200159
+COLORING: round:8, iter:4, this-value:-245108.16595693748, time-cost:3.8115124702453613, round-best-service:1, round-best-value:-275154.0541200159
+COLORING: round:8, iter:5, this-value:-258754.53921754926, time-cost:3.766798496246338, round-best-service:1, round-best-value:-275154.0541200159
+COLORING: round:9, iter:1, this-value:-438965.02334958286, time-cost:3.8082821369171143, round-best-service:1, round-best-value:-438965.02334958286
+COLORING: round:9, iter:2, this-value:-496862.609271401, time-cost:3.8055293560028076, round-best-service:2, round-best-value:-496862.609271401
+COLORING: round:9, iter:3, this-value:-408497.2679522324, time-cost:3.8892672061920166, round-best-service:2, round-best-value:-496862.609271401
+COLORING: round:9, iter:4, this-value:-407518.49807937926, time-cost:3.8633463382720947, round-best-service:2, round-best-value:-496862.609271401
+COLORING: round:9, iter:5, this-value:-424521.8656294705, time-cost:3.8680942058563232, round-best-service:2, round-best-value:-496862.609271401
+COLORING: round:10, iter:1, this-value:-451437.59801939747, time-cost:3.6911683082580566, round-best-service:1, round-best-value:-451437.59801939747
+COLORING: round:10, iter:2, this-value:-502490.09610872384, time-cost:3.849764823913574, round-best-service:2, round-best-value:-502490.09610872384
+COLORING: round:10, iter:3, this-value:-424571.96969580033, time-cost:3.799851655960083, round-best-service:2, round-best-value:-502490.09610872384
+COLORING: round:10, iter:4, this-value:-423708.9173548792, time-cost:3.7964508533477783, round-best-service:2, round-best-value:-502490.09610872384
+COLORING: round:10, iter:5, this-value:-438702.01897633926, time-cost:3.8430960178375244, round-best-service:2, round-best-value:-502490.09610872384
+COLORING: round:11, iter:1, this-value:-451437.5980193973, time-cost:3.8210394382476807, round-best-service:1, round-best-value:-451437.5980193973
+COLORING: round:11, iter:2, this-value:-502490.0961087239, time-cost:3.85158371925354, round-best-service:2, round-best-value:-502490.0961087239
+COLORING: round:11, iter:3, this-value:-424571.9696958002, time-cost:3.7801382541656494, round-best-service:2, round-best-value:-502490.0961087239
+COLORING: round:11, iter:4, this-value:-423708.9173548792, time-cost:3.803535223007202, round-best-service:2, round-best-value:-502490.0961087239
+COLORING: round:11, iter:5, this-value:-438702.018976339, time-cost:3.83703351020813, round-best-service:2, round-best-value:-502490.0961087239
+COLORING: round:12, iter:1, this-value:-474988.1327933447, time-cost:3.929957389831543, round-best-service:1, round-best-value:-474988.1327933447
+COLORING: round:12, iter:2, this-value:-554210.6532169525, time-cost:4.019389390945435, round-best-service:2, round-best-value:-554210.6532169525
+COLORING: round:12, iter:3, this-value:-433298.4433909582, time-cost:3.850585699081421, round-best-service:2, round-best-value:-554210.6532169525
+COLORING: round:12, iter:4, this-value:-431959.1713814662, time-cost:4.216032266616821, round-best-service:2, round-best-value:-554210.6532169525
+COLORING: round:12, iter:5, this-value:-408756.9917606852, time-cost:4.0500102043151855, round-best-service:2, round-best-value:-554210.6532169525
+COLORING: round:13, iter:1, this-value:-491387.6476958103, time-cost:3.954045534133911, round-best-service:1, round-best-value:-491387.6476958103
+COLORING: round:13, iter:2, this-value:-570610.1681194126, time-cost:4.072132349014282, round-best-service:2, round-best-value:-570610.1681194126
+COLORING: round:13, iter:3, this-value:-449697.9582934306, time-cost:4.148102760314941, round-best-service:2, round-best-value:-570610.1681194126
+COLORING: round:13, iter:4, this-value:-448358.68628393963, time-cost:4.375536203384399, round-best-service:2, round-best-value:-570610.1681194126
+COLORING: round:13, iter:5, this-value:-425156.5066631509, time-cost:3.88887095451355, round-best-service:2, round-best-value:-570610.1681194126
+COLORING: round:14, iter:1, this-value:-502431.792171811, time-cost:3.7239596843719482, round-best-service:1, round-best-value:-502431.792171811
+COLORING: round:14, iter:2, this-value:-553484.2902611312, time-cost:3.7941441535949707, round-best-service:2, round-best-value:-553484.2902611312
+COLORING: round:14, iter:3, this-value:-475566.1638482145, time-cost:4.000497817993164, round-best-service:2, round-best-value:-553484.2902611312
+COLORING: round:14, iter:4, this-value:-474703.111507294, time-cost:4.090576410293579, round-best-service:2, round-best-value:-553484.2902611312
+COLORING: round:14, iter:5, this-value:-489696.2131287512, time-cost:3.9759955406188965, round-best-service:2, round-best-value:-553484.2902611312
+COLORING: round:15, iter:1, this-value:-459751.18591310154, time-cost:4.095757246017456, round-best-service:1, round-best-value:-459751.18591310154
+COLORING: round:15, iter:2, this-value:-459751.18591310154, time-cost:3.8756542205810547, round-best-service:1, round-best-value:-459751.18591310154
+COLORING: round:15, iter:3, this-value:-459751.18591310154, time-cost:4.271838665008545, round-best-service:1, round-best-value:-459751.18591310154
+COLORING: round:15, iter:4, this-value:-459751.18591310154, time-cost:3.8928890228271484, round-best-service:1, round-best-value:-459751.18591310154
+COLORING: round:15, iter:5, this-value:-459751.18591310154, time-cost:3.83744478225708, round-best-service:1, round-best-value:-459751.18591310154
+COLORING: round:16, iter:1, this-value:-508154.3818494808, time-cost:4.0236735343933105, round-best-service:1, round-best-value:-508154.3818494808
+COLORING: round:16, iter:2, this-value:-566051.9677712916, time-cost:3.9788143634796143, round-best-service:2, round-best-value:-566051.9677712916
+COLORING: round:16, iter:3, this-value:-477686.6264521336, time-cost:3.870236873626709, round-best-service:2, round-best-value:-566051.9677712916
+COLORING: round:16, iter:4, this-value:-476707.85657927924, time-cost:3.882291555404663, round-best-service:2, round-best-value:-566051.9677712916
+COLORING: round:16, iter:5, this-value:-493711.2241293695, time-cost:3.8717398643493652, round-best-service:2, round-best-value:-566051.9677712916
+COLORING: round:17, iter:1, this-value:-526349.5461969599, time-cost:4.049175500869751, round-best-service:1, round-best-value:-526349.5461969599
+COLORING: round:17, iter:2, this-value:-584247.1321187696, time-cost:4.1368408203125, round-best-service:2, round-best-value:-584247.1321187696
+COLORING: round:17, iter:3, this-value:-495881.79079961276, time-cost:3.929853916168213, round-best-service:2, round-best-value:-584247.1321187696
+COLORING: round:17, iter:4, this-value:-494903.0209267579, time-cost:4.633276700973511, round-best-service:2, round-best-value:-584247.1321187696
+COLORING: round:17, iter:5, this-value:-511906.38847684825, time-cost:4.020318031311035, round-best-service:2, round-best-value:-584247.1321187696
+COLORING: round:18, iter:1, this-value:-486146.10771181126, time-cost:3.964909315109253, round-best-service:1, round-best-value:-486146.10771181126
+COLORING: round:18, iter:2, this-value:-477946.3502605807, time-cost:4.007554531097412, round-best-service:1, round-best-value:-486146.10771181126
+COLORING: round:18, iter:3, this-value:-477946.3502605807, time-cost:3.9183146953582764, round-best-service:1, round-best-value:-486146.10771181126
+COLORING: round:18, iter:4, this-value:-477946.3502605807, time-cost:3.899900436401367, round-best-service:1, round-best-value:-486146.10771181126
+COLORING: round:18, iter:5, this-value:-477946.3502605807, time-cost:3.9464714527130127, round-best-service:1, round-best-value:-486146.10771181126
+COLORING: round:19, iter:1, this-value:-666080.6179755422, time-cost:4.069953680038452, round-best-service:1, round-best-value:-666080.6179755422
+COLORING: round:19, iter:2, this-value:-717133.1160648583, time-cost:4.0685715675354, round-best-service:2, round-best-value:-717133.1160648583
+COLORING: round:19, iter:3, this-value:-639214.9896519512, time-cost:3.978052854537964, round-best-service:2, round-best-value:-717133.1160648583
+COLORING: round:19, iter:4, this-value:-638351.9373110281, time-cost:4.0192551612854, round-best-service:2, round-best-value:-717133.1160648583
+COLORING: round:19, iter:5, this-value:-653345.0389324832, time-cost:4.0809454917907715, round-best-service:2, round-best-value:-717133.1160648583
+COLORING: round:20, iter:1, this-value:-631599.7691680669, time-cost:4.043896198272705, round-best-service:1, round-best-value:-631599.7691680669
+COLORING: round:20, iter:2, this-value:-623400.0117168328, time-cost:3.958669424057007, round-best-service:1, round-best-value:-631599.7691680669
+COLORING: round:20, iter:3, this-value:-623400.0117168328, time-cost:4.04632830619812, round-best-service:1, round-best-value:-631599.7691680669
+COLORING: round:20, iter:4, this-value:-623400.0117168328, time-cost:3.856210470199585, round-best-service:1, round-best-value:-631599.7691680669
+COLORING: round:20, iter:5, this-value:-623400.0117168328, time-cost:3.9217844009399414, round-best-service:1, round-best-value:-631599.7691680669
