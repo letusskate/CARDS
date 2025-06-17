@@ -1,0 +1,395 @@
+"""
+coloring available
+"""
+
+# %%
+import sys
+import scipy
+import tqdm
+import numpy as np
+from scipy.optimize import linprog
+import time
+import os
+import random
+
+
+# %%
+# model define
+l_num = 5  # <=10
+n_num = 5  # <=15
+o_num = 5  # <=10
+m_num = n_num
+local_time_now = time.time()
+local_time = time.localtime(local_time_now)
+local_time = time.strftime("%Y%m%d-%H_%M_%S", local_time)
+output_dir_path = "output_data"
+input_dir_path = "data_dir"
+output_file_name = local_time + "-calculate_log" + ".txt"
+input_file_name = "pythonExample.txt"
+if not os.path.exists(output_dir_path):
+    os.mkdir(output_dir_path)
+input_file = os.path.join(input_dir_path, input_file_name)
+output_file = os.path.join(output_dir_path, output_file_name)
+
+
+# %%
+# data input
+with open(input_file, mode="r") as txt_file:
+    data = txt_file.readlines()
+    for i in range(7, len(data)):
+        exec(data[i])
+del data
+
+
+# %%
+# Initial data
+time_now = time.time()
+
+""" opt """
+c_opt = []
+for i in range(l_num):
+    for j in range(n_num):
+        for m in range(m_num):
+            for o in range(o_num):
+                c_opt.append(-lmd[i * n_num + j])
+c_opt = np.array(c_opt)
+
+""" A_ub """
+A_ub = []
+# y_lnmo <= 1
+for i in range(l_num):
+    for j in range(n_num):
+        this_constraint = [0] * l_num * n_num * m_num * o_num
+        for m in range(m_num):
+            for o in range(o_num):
+                this_constraint[
+                    i * n_num * m_num * o_num + j * m_num * o_num + m * o_num + o
+                ] = 1
+        A_ub.append(this_constraint)
+# x_lm * r_l <= R_m
+for m in range(m_num):
+    this_constraint = [0] * l_num * n_num * m_num * o_num
+    for i in range(l_num):
+        pass
+    A_ub.append(this_constraint)
+# lmd_ln * k_l * y_lnmo * d_nmop <= K_p
+for p in range(n_num):
+    this_constraint = [0] * l_num * n_num * m_num * o_num
+    for i in range(l_num):
+        for j in range(n_num):
+            for m in range(m_num):
+                for o in range(o_num):
+                    this_constraint[
+                        i * n_num * m_num * o_num + j * m_num * o_num + m * o_num + o
+                    ] = (
+                        lmd[i * n_num + j]
+                        * k[i]
+                        * d[
+                            j * m_num * o_num * n_num
+                            + m * o_num * n_num
+                            + o * n_num
+                            + p
+                        ]
+                    )
+    A_ub.append(this_constraint)
+# w_l * lmd_ln * y_lnmo <= W_m
+for m in range(m_num):
+    this_constraint = [0] * l_num * n_num * m_num * o_num
+    for i in range(l_num):
+        for j in range(n_num):
+            for o in range(o_num):
+                this_constraint[
+                    i * n_num * m_num * o_num + j * m_num * o_num + m * o_num + o
+                ] = (w[i] * lmd[i * n_num + j])
+    A_ub.append(this_constraint)
+# y_lnmo <= a_lnm * x_lm
+for i in range(l_num):
+    for j in range(n_num):
+        for m in range(m_num):
+            this_constraint = [0] * l_num * n_num * m_num * o_num
+            for o in range(o_num):
+                this_constraint[
+                    i * n_num * m_num * o_num + j * m_num * o_num + m * o_num + o
+                ] = 1
+            A_ub.append(this_constraint)
+# x_ln * c_ln <= B
+this_constraint = [0] * l_num * n_num * m_num * o_num
+A_ub.append(this_constraint)
+A_ub = np.array(A_ub)
+
+"""A_eq now useless """
+A_eq = None
+
+""" bounds of the var """
+bounds = []
+for i in range(l_num):
+    for j in range(n_num):
+        for m in range(m_num):
+            for o in range(o_num):
+                bounds.append([0, None])
+bounds = np.array(bounds)
+
+""" del var that will not be used """
+del d, w, lmd, k
+
+initial_time = time.time() - time_now
+print(f"initial time: {initial_time}")
+with open(file=output_file, mode="a+", encoding="utf-8") as txt_file:
+    txt_file.write(f"initial time: {initial_time}\n")
+
+
+# %%
+# LP solve function
+def LP_solve(x_ln, c_opt, A_ub, A_eq, bounds):
+    """get data"""
+    time_now = time.time()
+
+    """ b_ub """
+    b_ub = []
+    # y_lnmo <= 1
+    for i in range(l_num):
+        for j in range(n_num):
+            b_ub.append(1)
+    # x_lm * r_l <= R_m
+    for m in range(m_num):
+        this_sum = 0
+        for i in range(l_num):
+            this_sum += x_ln[i * m_num + m] * r[i]
+        b_ub.append(R[m] - this_sum)
+    # lmd_ln * k_l * y_lnmo * d_nmop <= K_p
+    for p in range(n_num):
+        b_ub.append(K[p])
+    # w_l * lmd_ln * y_lnmo <= W_m
+    for m in range(m_num):
+        b_ub.append(W[m])
+    # y_lnmo <= a_lnm * x_lm
+    for i in range(l_num):
+        for j in range(n_num):
+            for m in range(m_num):
+                this_sum = 0
+                for o in range(o_num):
+                    this_sum += (
+                        a[i * n_num * m_num + j * m_num + m] * x_ln[i * m_num + m]
+                    )
+                b_ub.append(this_sum)
+    # x_ln * c_ln <= B
+    this_sum = 0
+    for i in range(l_num):
+        for j in range(n_num):
+            this_sum += x_ln[i * n_num + j] * c[i * n_num + j]
+    b_ub.append(B[0] - this_sum)
+    b_ub = np.array(b_ub)
+
+    """ b_eq now useless """
+    b_eq = None
+
+    get_data_time = time.time() - time_now
+    print(f"get data time: {get_data_time}", end="   ")
+
+    """ calculate and return """
+    time_now = time.time()
+    # LINPROG_METHODS = ['simplex', 'revised simplex', 'interior-point', 'highs', 'highs-ds', 'highs-ipm']
+    res = linprog(
+        c=c_opt,
+        A_ub=A_ub,
+        b_ub=b_ub,
+        A_eq=A_eq,
+        b_eq=b_eq,
+        bounds=bounds,
+        method="highs",
+    )
+
+    calculate_time = time.time() - time_now
+    print(f"calculate time: {calculate_time}")
+
+    # print(res.status)
+    if res.status == 2:
+        return "NoSolution"
+    min_value = res.fun
+    # ylnm = res.x
+    return min_value
+
+
+# %%
+# algorithm define
+def generator():
+    while True:
+        yield
+
+
+def greedy_algorithm():
+    best_min_value = 1e10
+    x_ln_now = []
+    for i in range(l_num * n_num):
+        x_ln_now.append(0)
+    round_cnt = 0
+    # while True:
+    for _ in tqdm.tqdm(generator()):  # make tqdm able to show the speed
+        round_cnt += 1
+        min_this_value = 1e10
+        min_i = -1
+        for i in range(l_num * n_num):
+            time_now = time.time()
+            if x_ln_now[i] == 1:
+                continue
+            x_ln_this = x_ln_now.copy()
+            x_ln_this[i] = 1
+            this_value = LP_solve(
+                x_ln=x_ln_this, c_opt=c_opt, A_ub=A_ub, A_eq=A_eq, bounds=bounds
+            )
+            txt_file = open(file=output_file, mode="a+", encoding="utf-8")
+            txt_file.write(
+                f"round:{round_cnt}, iter:{i+1}, this-value:{this_value}, time-cost:{time.time()-time_now}, "
+            )
+            if this_value == "NoSolution":
+                txt_file.write(
+                    f"round-best-server:{min_i+1}, round-best-value:{min_this_value}\n"
+                )
+                txt_file.close()
+                continue
+            elif this_value < min_this_value:
+                min_this_value = this_value
+                min_i = i
+            txt_file.write(
+                f"round-best-server:{min_i+1}, round-best-value:{min_this_value}\n"
+            )
+            txt_file.close()
+        if min_i != -1 and min_this_value != best_min_value:
+            x_ln_now[min_i] = 1
+            best_min_value = min_this_value
+        else:
+            with open(file=output_file, mode="a+", encoding="utf-8") as txt_file:
+                txt_file.write(
+                    f"final-object-value:{best_min_value}, final-best-servers:{x_ln_now}"
+                )
+            return best_min_value, x_ln_now
+
+
+# %%
+def sample_solve(v_x_ln_now, nv, l):
+    opt_sum = 0
+    colors = []
+    for i in range(len(v_x_ln_now)):
+        colors.append(i)
+    gen = non_recursive_gen(colors, n_num)
+    for vector_v in gen:
+        x_ln = []
+        for this_v in vector_v:
+            for this_l in range(l_num):
+                for this_n in range(n_num):
+                    x_ln.append(v_x_ln_now[this_v][this_l * n_num + this_n])
+        if vector_v[nv[0]] == nv[1]:
+            x_ln[l * n_num + nv[0]] = 1
+        this_value = LP_solve(
+            x_ln=x_ln, c_opt=c_opt, A_ub=A_ub, A_eq=A_eq, bounds=bounds
+        )
+        if this_value == "NoSolution":
+            continue
+        else:
+            opt_sum += this_value
+    return opt_sum
+
+
+# %%
+# Non-recursive generator for generating combinations
+def non_recursive_gen(colors, n):
+    stack = [[]]
+    while stack:
+        seq = stack.pop()
+        if len(seq) == n:
+            yield seq
+        else:
+            for color in reversed(
+                colors
+            ):  # key: reversed to ensure the last color is used first
+                stack.append(seq + [color])
+
+
+# %%
+# Find the best v of v_x_ln_now
+def find_best_v(v_x_ln_now):
+    best_value = 1e10
+    # best_v = None
+    best_x_ln = None
+    colors = []
+    for i in range(len(v_x_ln_now)):
+        colors.append(i)
+    gen = non_recursive_gen(colors, n_num)
+    for vector_v in gen:
+        x_ln = []
+        for this_v in vector_v:
+            for this_l in range(l_num):
+                for this_n in range(n_num):
+                    x_ln.append(v_x_ln_now[this_v][this_l * n_num + this_n])
+        this_value = LP_solve(
+            x_ln=x_ln, c_opt=c_opt, A_ub=A_ub, A_eq=A_eq, bounds=bounds
+        )
+        if this_value == "NoSolution":
+            continue
+        if this_value < best_value:
+            best_value = this_value
+            # best_v = vector_v
+            best_x_ln = x_ln
+    return best_value, best_x_ln
+
+
+# %%
+# Coloring greedy algorithm
+def coloring_greedy(v_num):
+    pend = []
+    for i in range(n_num):
+        for j in range(v_num):
+            pend.append((i, j))
+    random.shuffle(pend)
+    isfull_n_v = []
+    for i in range(n_num):
+        isfull_n_v.append([0] * v_num)
+    v_x_ln_now = []
+    for i in range(v_num):
+        v_x_ln_now.append([0] * l_num * n_num)
+    best_min_value = 1e10
+    round_cnt = 0
+    for nv in pend:
+        if isfull_n_v[nv[0]][nv[1]]:
+            continue
+        round_cnt += 1
+        min_this_value = 1e10
+        min_l = -1
+        for i in range(l_num):
+            time_now = time.time()
+            this_value = sample_solve(v_x_ln_now, nv, i)
+            txt_file = open(file=output_file, mode="a+", encoding="utf-8")
+            txt_file.write(
+                f"COLORING: round:{round_cnt}, iter:{i+1}, this-value:{this_value}, time-cost:{time.time()-time_now}, "
+            )
+            if this_value == "NoSolution":
+                txt_file.write(
+                    f"round-best-service:{min_l+1}, round-best-value:{min_this_value}\n"
+                )
+                txt_file.close()
+                continue
+            elif this_value < min_this_value:
+                min_this_value = this_value
+                min_l = i
+            txt_file.write(
+                f"round-best-service:{min_l+1}, round-best-value:{min_this_value}\n"
+            )
+            txt_file.close()
+        if min_l != -1 and min_this_value != best_min_value:
+            v_x_ln_now[nv[1]][nv[0] * l_num + min_l] = 1
+            best_min_value = min_this_value
+        else:
+            isfull_n_v[nv[0]][nv[1]] = 1
+    return find_best_v(v_x_ln_now)
+
+
+# %%
+# run the algorithm
+if __name__ == "__main__":
+    ans = greedy_algorithm()
+    v_num = 4
+    ans2 = coloring_greedy(v_num)
+    if ans[0] <= ans2[0]:
+        print(ans)
+    else:
+        print(ans2)

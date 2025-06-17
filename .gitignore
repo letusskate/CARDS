@@ -1,3 +1,24 @@
+!*.txt
+!/output_data/
+!/source_data/
+!/data_dir/
+!*.py
+!*.lg4
+*.cfg
+*.xml
+venv/
+.idea/
+__pycache__/
+.pytest_cache
+!.gitignore
+!README.md
+!requirements.txt
+!pytest.ini
+**/trained-models/**/*.pth
+# *.pth
+# *.pth.tar
+!selected-models/*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
